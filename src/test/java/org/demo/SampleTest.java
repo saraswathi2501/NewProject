@@ -7,6 +7,7 @@ public class SampleTest extends BaseClass{
 	@BeforeClass
     private void beforeClass() {
 	chromeBrowser();
+	maximize();
 }
 	@Test
 private void test() {
